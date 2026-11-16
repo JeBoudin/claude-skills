@@ -1,0 +1,17 @@
+{
+  "name": "claude-skills",
+  "description": "Skills for managing and leading operations (team-map, wiring) and for getting a role-based second opinion (make-sense).",
+  "owner": { "name": "JeBoudin" },
+  "plugins": [
+    {
+      "name": "managing-and-leading-operations",
+      "source": "./plugins/managing-and-leading-operations",
+      "description": "team-map + wiring: a living map of your teams and how work flows between them (uses Claude's memory)."
+    },
+    {
+      "name": "make-sense",
+      "source": "./plugins/make-sense",
+      "description": "A second opinion from a role you choose: verdict, score, reasons, stakeholder views, questions to ask."
+    }
+  ]
+}
